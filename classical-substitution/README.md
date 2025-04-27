@@ -16,11 +16,16 @@ Each algorithm has its own Python implementation file. This README provides an o
 ## About the algorithms
 
 ```text
-Both the `atbash.py` and `caesar.py` files include a `__main__` module. This means that if you execute these files directly from your terminal using the command `python atbash.py` or `python caesar.py`, they will prompt you to enter the text you wish to encrypt via the keyboard. 
+Both the `atbash.py` and `caesar.py` files include a `__main__`
+module. This means that if you execute these files directly from 
+your terminal using the command `python atbash.py` or `python caesar.py`, 
+they will prompt you to enter the text you wish to encrypt via the keyboard. 
 
-This allows for quick testing and experimentation with the ciphers without the need to write a separate script to import and use their functions. 
+This allows for quick testing and experimentation with the ciphers 
+without the need to write a separate script to import and use their functions. 
 
-If you prefer to integrate these cipher functions into your own Python projects, you can simply import them as modules.
+If you prefer to integrate these cipher functions into your own Python projects, 
+you can simply import them as modules.
 ```
 ### ATBASH Cipher
 
