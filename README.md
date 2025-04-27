@@ -17,6 +17,20 @@ Below is a list of the encryption algorithms currently included in this reposito
 
 * [**More algorithms coming soon...**](https://github.com/osmancadc/crypto-in-python/tree/main)
 
+
+## Attack Scripts
+
+The `attacks/` directory contains basic scripts demonstrating how some of the implemented ciphers can be broken. These scripts are provided for educational purposes to illustrate the weaknesses of these algorithms.
+
+* [**Atbash Attack**](attacks/atbash_reverse_algorithm.py) - A simple script as the Atbash cipher is trivially broken.
+* [**Caesar Attack**](attacks/caesar_brute_force.py) - A basic brute-force attack to try all possible shift values.
+* [**More attack scripts coming soon...**](https://github.com/osmancadc/crypto-in-python/tree/main/attacks)
+
+**Warning:** These attack scripts are for educational purposes only. Do not use them for any illegal or unethical activities.
+
+## Structure
+
+
 ## Contributing
 
 Contributions to this repository are welcome! If you'd like to add a new algorithm or improve an existing one, please follow these steps:

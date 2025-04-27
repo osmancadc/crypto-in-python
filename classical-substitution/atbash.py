@@ -1,11 +1,14 @@
 import pyperclip
 
-PLAIN = "ABCDEFGHIJKLMNOPQRSTUVWXYZ "
-CIPHER = "ZYXWVUTSRQPONMLKJIHGFEDCBA "
+PLAIN = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+CIPHER = "ZYXWVUTSRQPONMLKJIHGFEDCBA"
 
 def atbash(text):
     encrypted_text = ''
     for letter in text:
+        if not letter in PLAIN:
+            encrypted_text+=' '
+            continue
         if letter in PLAIN:
             i = PLAIN.find(letter)
             encrypted_text += CIPHER[i]

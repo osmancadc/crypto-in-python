@@ -6,9 +6,9 @@ BASE = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 def caesar(text, key, is_encrypt):
     encrypted_text = ''
     for letter in text:
-        if letter == ' ':
-            encrypted_text+=' '
-            continue
+        if not letter in BASE:
+                encrypted_text+=' '
+                continue
         if letter in BASE:
             position = BASE.find(letter)
 
