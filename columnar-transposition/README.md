@@ -99,13 +99,13 @@ This `while` loop continues to execute as long as the calculated index is less t
 
 Here, we begin with column index `0` and a key of `7`.
 
-|$\substack{⬇ \\ T}$|H|E|...|C|$\substack{⬇ \\ K}$|B|...|$\substack{⬇ \\ O }$|X|...|$\substack{⬇ \\ O}$|V|...|H|E|$\substack{⬇ \\ L}$|A|Z|...|D|O|$\substack{⬇ \\ G}$|
+|$\substack{⮕ \\ T}$|H|E|...|C|$\substack{⮕ \\ K}$|B|...|$\substack{⮕ \\ O }$|X|...|$\substack{⮕ \\ O}$|V|...|H|E|$\substack{⮕ \\ L}$|A|Z|...|D|O|$\substack{⮕ \\ G}$|
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |0|1|2|...|6|7|8|...|14|15|...|21|22|...|26|27|28|29|30|...|40|41|42|
 
 No, let's refine that for clarity. Consider the process starting with the **second** column (index `1` in programming terms, but often thought of as the "2nd" column conceptually) and the same key `7`:
 
-|~~T~~|$\substack{⬇ \\ H}$|E|...|C|~~K~~|$\substack{⬇ \\ B}$|...|~~O~~|$\substack{⬇ \\ X }$|...|~~O~~|$\substack{⬇ \\ V}$|...|H|E|~~L~~|$\substack{⬇ \\ A}$|Z|...|D|O|G|
+|~~T~~|$\substack{⮕ \\ H}$|E|...|C|~~K~~|$\substack{⮕ \\ B}$|...|~~O~~|$\substack{⮕ \\ X }$|...|~~O~~|$\substack{⮕ \\ V}$|...|H|E|~~L~~|$\substack{⮕ \\ A}$|Z|...|D|O|G|
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |~~0~~|1|2|...|6|~~7~~|8|...|~~14~~|15|...|~~21~~|22|...|26|27|~~28~~|29|30|...|40|41|~~42~~|
 
