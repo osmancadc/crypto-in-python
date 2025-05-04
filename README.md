@@ -15,6 +15,8 @@ Below is a list of the encryption algorithms currently included in this reposito
 
 * [**Classical Substitution**](classical-substitution) - Contains implementations of fundamental substitution ciphers like Atbash and Caesar, where plaintext units are systematically replaced.
 
+* [**Columnar Transposition**](columnar-transposition) - Implements the columnar transposition cipher, a classic technique that rearranges the order of characters in the plaintext based on a keyword or key phrase.
+
 * [**More algorithms coming soon...**](https://github.com/osmancadc/crypto-in-python/tree/main)
 
 
