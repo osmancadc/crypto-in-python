@@ -139,15 +139,14 @@ for i in range(len(text)):
 
 Here, we have a `GROUP` variable set to `5`, which defines the standard length of the encrypted text segments. The conditional statement `if (i+1) % GROUP == 0` checks if the current character's position (`i+1`, as indexing starts from `0` while our positional count begins from `1`) is a multiple of the `GROUP` size.
 
-### How to use
+## How to use
 
-The `columnar_transposition.py` module provides functions for encrypting text using the Columnar Transposition.
+The `columnar_transposition.py` module provides functions for encrypting and decrypting text using the Columnar Transposition.
+
+### Examples
+
 
 #### `encrypt(text, key)`
-
-
-**Example:**
-
 ```python
 from columnar_transposition import encrypt
 
@@ -159,6 +158,23 @@ ciphertext = encrypt(plaintext, encryption_key)
 print(f"Plaintext: {plaintext}") # Output: The quick brown fox jumps over the lazy sleeping dog
 
 print(f"Ciphertext: {ciphertext}") # Output: TKOOL EGHBX VAPER JEZIQ OURYN UWMTS GINPH LDCFS EEO
+```
+
+
+
+#### `decrypt(text, key)`
+
+```python
+from columnar_transposition import decrypt
+
+encrypted_text = "TKOOL EGHBX VAPER JEZIQ OURYN UWMTS GINPH LDCFS EEO"
+encryption_key = 7
+
+plain_text = decrypt(encrypted_text, encryption_key)
+
+print(f"Encrypted text: {encrypted_text}") # Output: TKOOL EGHBX VAPER JEZIQ OURYN UWMTS GINPH LDCFS EEO
+
+print(f"Plain text: {plain_text}") # Output: THEQUICKBROWNFOXJUMPSOVERTHELAZYSLEEPINGDOG
 ```
 
 ## Contributing
