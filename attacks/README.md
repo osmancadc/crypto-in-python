@@ -18,6 +18,8 @@ Below is a list of the attack algorithms currently included in this repository. 
 
 * [**Atbash Reverse Algorithm**](#atbash-reverse-algorithm) 
 
+* [**Columnar Crypto Analysis**](columnar_crypto_analysis) 
+
 * [**More algorithms coming soon...**](https://github.com/osmancadc/crypto-in-python/tree/main)
 
 
